@@ -1,3 +1,9 @@
+:root {
+  --blue: #197ae0;
+  --bg-color: #f6f8fa;
+  --border-color: #ccc;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,37 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.MuiAppBar-colorPrimary {
+  color: black !important;
+  background-color: var(--bg-color) !important;
+}
+
+.PrivateTabIndicator-colorSecondary-4 {
+  background-color: #fa937d !important;
+}
+
+.PrivateTabIndicator-root-2 {
+  height: 2.5px !important;
+}
+
+.MuiTab-wrapper {
+  flex-direction: row !important;
+}
+
+.MuiTab-wrapper svg {
+  margin-right: 8px !important;
+  margin-top: 2px !important;
+}
+
+.MuiTab-root {
+  min-width: 140px !important;
+}
+
+.MuiTab-labelIcon {
+  min-height: 32px !important;
+  text-transform: none !important;
+  font-weight: 400 !important;
+  font-size: 15px !important;
 }

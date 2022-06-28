@@ -1,0 +1,89 @@
+.issue {
+  border-bottom: 1px solid var(--border-color);
+  padding: 10px 15px;
+  display: flex;
+}
+
+.issue:hover {
+  background-color: var(--bg-color);
+}
+
+.issue-icon {
+  flex-shrink: 0;
+  padding-right: 10px;
+  padding-top: 2px;
+}
+
+.issue-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #242b33;
+  text-decoration: none;
+}
+
+.issue-labels {
+  display: inline;
+  font-size: 14px;
+  line-height: 21px;
+  overflow-wrap: break-word;
+}
+
+.issue-title:hover {
+  color: var(--blue);
+}
+
+.issue-details {
+  flex-grow: 1;
+}
+
+.issue-meta {
+  margin-top: 5px;
+  flex-shrink: 0;
+  color: #555;
+  font-size: 12px;
+}
+
+.issue-user {
+  color: #555;
+  text-decoration: none;
+}
+
+.issue-user:hover {
+  color: var(--blue);
+}
+
+.issue-extras {
+  display: flex;
+  width: 25%;
+}
+
+.issue-extra-col {
+  width: 33%;
+  margin-left: 10px;
+  text-align: right;
+}
+
+.issue-extra-link {
+  text-decoration: none;
+  color: #555;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.issue-extra-link svg {
+  fill: #555;
+  vertical-align: middle;
+}
+
+.issue-extra-link:hover {
+  color: var(--blue);
+}
+
+.issue-extra-link:hover svg {
+  fill: var(--blue);
+}
+
+.issue-assignee-img {
+  width: 20px;
+  border-radius: 50%;
+}

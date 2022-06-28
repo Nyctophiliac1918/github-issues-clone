@@ -1,0 +1,52 @@
+.IssueList {
+    margin: 40px auto 20px;
+    max-width: 1200px;
+    width: 95%;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.issue-list-header {
+    border-bottom: 1px solid var(--border-color);
+    padding: 10px 16px;
+    display: flex;
+    background-color: var(--bg-color);
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+.issue-list-header .issues-count {
+    display: flex;
+}
+
+.faded {
+    color: rgba(0,0,0,0.6);
+}
+
+.issue-list-header .count {
+    flex: auto;
+    flex-direction: row;
+    display: flex;
+    line-height: 36px;
+    gap: 16px;
+}
+
+.issue-list-header .icon {
+    margin-right: 8px;
+    margin-top: 2px;
+}
+
+.options {
+    flex: auto;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 36px;
+    gap: 16px;
+    font-weight: 400;
+}
+
+.list-width {
+    max-width: 1200px;
+    width: 95%;
+    margin: auto;
+}

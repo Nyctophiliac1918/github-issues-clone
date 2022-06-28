@@ -1,0 +1,83 @@
+.header {
+  background-color: var(--bg-color);
+  margin: 0;
+  padding-top: 16px;
+  border-bottom: 1px solid rgb(194 194 194)
+}
+
+.repo-details {
+  margin: 0 auto 24px;
+  display: flex;
+  width: 95%;
+  line-height: 40px;
+}
+
+.repo-name {
+  flex: auto;
+  font-size: 20px;
+  margin-right: 16px;
+  font-weight: 400;
+  color: var(--blue);
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.repo-stats {
+  align-items: center;
+  flex-shrink: 0;
+  display: flex;
+  line-height: 20px;
+}
+
+.repo-stats span {
+  margin-right: 8px;
+  align-items: center;
+  display: flex;
+  padding: 0 12px;
+  border: 1px solid var(--border-color);
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.repo-stats .with-data {
+  padding-right: 0;
+}
+
+.repo-stats .icon {
+  margin-right: 5px;
+  padding-top: 4px;
+}
+
+.repo-stats .text {
+  font-weight: 500;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.repo-stats .count {
+  margin-left: 12px;
+  padding: 5px 12px;
+  border-left: 1px solid var(--border-color);
+  background-color: white;
+  font-weight: 600;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.bolder {
+  font-weight: 600;
+}
+
+.label {
+  display: inline-block;
+  padding: 0 7px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  border: 1px solid var(--border-color);
+  border-radius: 2em;
+  text-decoration: none;
+  color: rgb(87, 96, 106);
+  margin-left: 8px;
+}
