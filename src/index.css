@@ -18,6 +18,10 @@ code {
     monospace;
 }
 
+.d-flex {
+  display: flex;
+}
+
 .MuiAppBar-colorPrimary {
   color: black !important;
   background-color: var(--bg-color) !important;
@@ -41,7 +45,7 @@ code {
 }
 
 .MuiTab-root {
-  min-width: 140px !important;
+  min-width: 100px !important;
 }
 
 .MuiTab-labelIcon {

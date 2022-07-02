@@ -26,7 +26,7 @@ export default function Header() {
   const renderTabs = () => tabs.map( (tab, index) => 
     <Tab
       id={`scrollable-tab-${index}`}
-      ariaControls={`scrollable-tabpanel-${index}`}
+      aria-controls={`scrollable-tabpanel-${index}`}
       key={tab.icon}
       icon={<TabsIcons type={tab.icon} />}
       label={tab.text}

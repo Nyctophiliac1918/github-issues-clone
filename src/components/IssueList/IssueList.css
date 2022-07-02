@@ -1,4 +1,4 @@
-.IssueList {
+.issue-list {
     margin: 40px auto 20px;
     max-width: 1200px;
     width: 95%;
@@ -17,6 +17,7 @@
 
 .issue-list-header .issues-count {
     display: flex;
+    cursor: pointer;
 }
 
 .faded {

@@ -25,9 +25,10 @@
 
 .repo-stats {
   align-items: center;
-  flex-shrink: 0;
+  flex-wrap: wrap;
   display: flex;
   line-height: 20px;
+  justify-content: flex-end;
 }
 
 .repo-stats span {
